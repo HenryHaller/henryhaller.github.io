@@ -1,6 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta|Nanum+Myeongjo');
 #middle_text {
+  font-family: 'Mukta', sans-serif;
+}
+
+.darker_background {
+  color: rgba(0,0,0,0.3);
+  background: #4ECCCC;
+}
+
+#middle_text_box {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80vh;
+  flex-direction: column;
+  height: calc(100vh - 120px);
+  width: 60%;
+  position: relative;
+  top: -5vh;
+}
+
+.text_holder {
+  display: flex;
+  justify-content: center;
+}
+
+
+.text_holder h1 {
+  margin-bottom: 0;
+}
+
+#title_text {
+  font-family: 'Nanum Myeongjo', serif;
+  align-items: center;
+  height: 60px;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+  opacity: 0.75;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  opacity: 1;
+  text-decoration: none !important;
+  color: orange !important;
+}
+
+body {
+  background-color: #A6E5E5 !important;
+}
+
+p {
+  text-indent: 2em;
 }
