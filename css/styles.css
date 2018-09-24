@@ -46,19 +46,33 @@ a:link {
 }
 
 a:visited {
-  color: green;
+  color: #darkblue;
+}
+
+.footer a:visited {
+  color: #CC7C06;
 }
 
 a:hover {
   opacity: 1;
   text-decoration: none !important;
-  color: orange !important;
+  color: #CC7C06 !important;
 }
 
 body {
   background-color: #A6E5E5 !important;
 }
 
+em {
+  color: #CC7C06;
+}
+
 p {
   text-indent: 2em;
+  box-shadow: 4px 4px 13px 7px #CC7C06;
+  padding: 10px;
+  margin: 30px auto !important;
+  padding: 4px 6px;
+  line-height: 1.8;
 }
+
