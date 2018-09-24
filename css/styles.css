@@ -2,9 +2,9 @@
 #middle_text {
   padding: 0 3.5%;
   font-family: 'Mukta', sans-serif;
-  border-bottom: solid 2px #4ECCCC;
+/*  border-bottom: solid 2px #4ECCCC;
   border-top: solid 2px #4ECCCC;
-}
+*/}
 
 .lower_border {
   border-bottom: dashed 2px #CC7C06;
@@ -22,7 +22,6 @@
 #middle_text_box {
   border-left: solid 2px #4ECCCC;
   border-right: solid 2px #4ECCCC;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -75,6 +74,14 @@ a:hover {
 
 body {
   background-color: #A6E5E5 !important;
+}
+
+h5 {
+  color: #CC7C06 !important;
+  font-family: 'Nanum Myeongjo', serif !important;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0 0 0;
 }
 
 strong {
