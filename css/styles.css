@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Mukta|Nanum+Myeongjo');
 #middle_text {
+  padding: 0 3.5%;
   font-family: 'Mukta', sans-serif;
+  border-bottom: solid 2px #4ECCCC;
+  border-top: solid 2px #4ECCCC;
+}
+
+.lower_border {
+  border-bottom: dashed 2px #CC7C06;
+}
+
+.upper_border {
+  border-top: dashed 2px #CC7C06;
 }
 
 .darker_background {
@@ -9,15 +20,18 @@
 }
 
 #middle_text_box {
+  border-left: solid 2px #4ECCCC;
+  border-right: solid 2px #4ECCCC;
+
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   height: calc(100vh - 120px);
-  width: 60%;
-  position: relative;
-  top: -5vh;
-}
+  width: 70%;
+/*  position: relative;
+  bottom: 2.5vh;
+*/}
 
 .text_holder {
   display: flex;
@@ -63,7 +77,7 @@ body {
   background-color: #A6E5E5 !important;
 }
 
-em {
+strong {
   color: #CC7C06;
 }
 
